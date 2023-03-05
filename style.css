@@ -11,8 +11,9 @@ body{
     height: 96px;
     background-color: blue;
     color: white;
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 48px;
+    margin: 2px auto;
 }
 .btn:hover{
     background-color: purple;
@@ -23,10 +24,20 @@ body{
 .calc{
     background-color: white;
     color: #000;
-    width: 390px;
+    width: 400px;
     border-radius: 10px;
     text-align:right;
 }
-#outer { width: screen width - 40; }
-#inner { width: 400px; margin: 10% auto; }
+#outer { 
+    width: screen width - 40; 
+}
+#inner { 
+    width: 400px; margin: 10% auto;
+    border: 5px solid rgb(247, 0, 255); 
+    background: linear-gradient(90deg, rgb(36, 28, 100) 0%, rgb(100, 21, 21) 100%);
+}
+.text{
+    color: white;
+    text-align: center;
+}
 }
