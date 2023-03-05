@@ -1,0 +1,32 @@
+@media screen and (min-width: 480px) {
+body{
+    background: linear-gradient(90deg, rgb(36, 28, 100) 0%, rgb(100, 21, 21) 100%);
+}
+.inner
+{
+    display: inline-block;
+}
+.btn{
+    width: 96px;
+    height: 96px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-size: 48px;
+}
+.btn:hover{
+    background-color: purple;
+}
+.btn:active{
+    background-color: red;
+}
+.calc{
+    background-color: white;
+    color: #000;
+    width: 390px;
+    border-radius: 10px;
+    text-align:right;
+}
+#outer { width: screen width - 40; }
+#inner { width: 400px; margin: 10% auto; }
+}
