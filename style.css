@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+
 body{
     background: linear-gradient(90deg, rgb(36, 28, 100) 0%, rgb(100, 21, 21) 100%);
 }
@@ -28,6 +28,11 @@ body{
     border-radius: 10px;
     text-align:right;
 }
+.text{
+    color: white;
+    text-align: center;
+}
+@media screen{
 #outer { 
     width: screen width - 40; 
 }
@@ -35,9 +40,5 @@ body{
     width: 400px; margin: 10% auto;
     border: 5px solid rgb(247, 0, 255); 
     background: linear-gradient(90deg, rgb(36, 28, 100) 0%, rgb(100, 21, 21) 100%);
-}
-.text{
-    color: white;
-    text-align: center;
 }
 }
