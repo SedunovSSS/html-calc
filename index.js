@@ -33,9 +33,6 @@ function sClose(){
 function calculate(){
     try{
         document.getElementById("c").innerHTML = eval(document.getElementById("c").innerHTML);
-        if (document.getElementById("c").innerHTML == "Infinity" | document.getElementById("c").innerHTML == "NaN"){
-            document.getElementById("c").innerHTML = "0";
-        }
     }
     catch(error){
         console.log(error);
